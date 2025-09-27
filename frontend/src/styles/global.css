@@ -203,3 +203,16 @@ h3 { font-size: 1.25rem; }
 .nav-welcome-user { color: var(--accent); font-weight: 500; margin-left: 1.5rem; white-space: nowrap; }
 .nav-logout-button { margin-left: 1rem; text-decoration: none; color: var(--text-light); font-weight: 500; transition: var(--transition); cursor: pointer; }
 .nav-logout-button:hover { color: var(--accent); }
+
+
+/* Add these styles to your global.css */
+
+/* Add a transition to the navbar's transform property */
+.navbar {
+  transition: transform 0.3s ease-in-out;
+}
+
+/* This class moves the navbar up and out of view */
+.navbar--hidden {
+  transform: translateY(-100%);
+}
