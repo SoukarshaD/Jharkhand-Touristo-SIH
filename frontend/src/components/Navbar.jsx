@@ -38,7 +38,7 @@ export default function Navbar() {
     <nav className={`navbar ${!visible ? 'navbar--hidden' : ''}`}>
       <h1>
         <Link to="/" style={{ color: 'white', textDecoration: 'none' }}>
-          Jharkhand Tourism
+          Jharkhand Touristo
         </Link>
       </h1>
       <div className="nav-links">
