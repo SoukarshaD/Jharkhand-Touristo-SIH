@@ -69,7 +69,7 @@ export default function SpotDetail() {
   }
   
   // ✅ Correct Google Maps URL
-  const googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${spot.coordinates.lat},${spot.coordinates.lng}`;
+  const googleMapsUrl = `https://www.google.com/maps/dir/?api=1&destination=${spot.coordinates.lat},${spot.coordinates.lng}`;
 
   return (
     <div className="container">
